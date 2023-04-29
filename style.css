@@ -1,0 +1,61 @@
+<style>
+    
+    /* Definir o estilo do corpo do site */
+body {
+  /* Criar um fundo degradê linear que vai do vermelho ao amarelo */
+  background: linear-gradient(to right, rgb(106, 0, 255), rgb(171, 35, 213));
+}
+
+    /* Definir o estilo do cabeçalho do site */
+    header {
+      color: white;
+      padding: 13px;
+      text-align: center;
+    }
+
+    /* Definir o estilo do conteúdo principal do site */
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 8px;
+    }
+
+    /* Definir o estilo do título do conteúdo principal */
+    h1 {
+      color: rgb(0, 0, 0);
+      font-size: 36px;
+    }
+
+    /* Definir o estilo do parágrafo do conteúdo principal */
+    p {
+      color: black;
+      font-size: 18px;
+      width: 80%;
+    }
+
+    /* Definir o estilo do rodapé do site */
+    footer {
+      background-color:;
+      color: white;
+      padding: 10px;
+      text-align: right;
+    }
+
+  </style>
+  .matéria {
+    margin-bottom: 20px;
+    height: 3px; 
+}
+
+.image {
+  float: left;
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+ul {
+  list-style-type: none;
+  line-height: 1;
+  padding-left: 12px;
+ }
